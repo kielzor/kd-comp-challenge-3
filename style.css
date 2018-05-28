@@ -1,0 +1,10 @@
+.left-panel {
+    background-color: #354051;
+    height: 100vh;
+    width: 12%;
+}
+
+.profile-picture-frame {
+    height: 20vh;
+    border-bottom: 5px solid #2f3a4b;
+}
