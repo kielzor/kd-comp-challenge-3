@@ -41,12 +41,11 @@ main {
 }
 
 .profile-name {
-    margin-right: 5px;
     color: #f3f3f3;
     font-size: small;
     font-weight: 600;
+    margin-right: 5px;
     opacity: .5;
-
 }
 
 .expand-button {
@@ -66,7 +65,6 @@ main {
     border-bottom: 5px solid #2f3a4b;
     color: #f3f3f3;
     height: 18%;
-    padding-left: 12px;
 }
 
 .main-title {
@@ -86,9 +84,12 @@ main {
     justify-content: flex-start;
     min-height: 2.9rem;
     opacity: .4;
+    padding-left: 12px;
 }
 
 .left-panel-inner-content:hover {
+    background-color: #31394a;
+    border-left: 2px solid #19a1e7;
     cursor: pointer;
     font-weight: 800;
     opacity: 1;
@@ -102,7 +103,6 @@ main {
 .main-tab-bottom {
     color: #f3f3f3;
     height: 96rem;
-    padding-left: 12px;
 }
 
 .bottom-left-panel-checkbox {
@@ -118,7 +118,6 @@ main {
 }
 
 .main-panel {
-    float: right;
     height: 90rem;
     width: 80rem;
 }
@@ -165,7 +164,7 @@ main {
 
 .search-input {
     border: none;
-    font-size: large;
+    font-size: small;
     font-weight: 700;
     height: 100%;
     opacity: .5;
@@ -196,7 +195,7 @@ main {
 
 .main-top {
     display: flex;
-    height: 12%;
+    height: 9%;
 }
 
 .main-top-left {
@@ -205,12 +204,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .main-top-heading {
+    font-size: x-large;
+    font-weight: 600;
     margin: 0;
     padding-left: 40px;
-    color: #8b8f98;
+    color: #666668;
 }
 
 .main-location {
@@ -219,13 +221,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 20rem;
+    width: 15.5rem;
 }
 
 .location-spacing {
     display: flex;
+    font-size: small;
     justify-content: space-between;
-    width: 18rem;
+    width: 14rem;
 }
 
 .main-top-blue-text {
@@ -235,6 +238,11 @@ main {
 .main-top-blue-text:hover {
     cursor: pointer;
     font-weight: 600;
+}
+
+.location-svg {
+    height: 1.25rem;
+    width: 1.25rem;
 }
 
 .location-svg:hover {
@@ -257,11 +265,13 @@ main {
     width: 3.5rem;
     align-items: center;
     justify-content: space-between;
+    opacity: .50;
 }
 
 .open-button:hover {
     cursor: pointer;
     border-color: #14a5fa;
+    opacity: 1;
 }
 
 .open-svg {
@@ -273,7 +283,6 @@ main {
     color: #6f6f73;
     font-weight: 800;
     font-size: small;
-    opacity: .50;
 }
 
 .main-top-svgs {
@@ -297,4 +306,70 @@ main {
     cursor: pointer;
     opacity: .75;
     border-color: #14a5fa;
+}
+
+.selector-box {
+    width: 79%;
+    height: 3%;
+}
+
+.panel-selectors {
+    padding-left: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectors {
+    color: #6f6f73;
+    font-size: 10px;
+    font-weight: 800;
+    opacity: .75;
+    padding-bottom: 20px;
+}
+
+.selectors:hover {
+    border-bottom: 3px solid #3eb0f9;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.main-panel-main-box {
+    background-color: #edf2f6;
+    width: 100%;
+    height: 73.6rem;
+}
+
+.graph-section {
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    background-color: red;
+}
+
+.left-graph-box {
+    height: 22rem;
+    width: 53%;
+
+}
+
+.right-graph-box {
+    height: 22rem;
+    width: 47%;
+}
+
+.more-options-button {
+    height: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.left-button-border {
+    width: 48%;
+    border-bottom: 3px solid #dbe0e5;
+}
+
+.right-button-border {
+    width: 48%;
+    border-bottom: 3px solid #dbe0e5;
 }
