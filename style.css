@@ -36,11 +36,12 @@ main {
 .profile {
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    width: 50%;
+    justify-content: center;
+    width: 100%;
 }
 
 .profile-name {
+    margin-right: 5px;
     color: #f3f3f3;
     font-size: small;
     font-weight: 600;
