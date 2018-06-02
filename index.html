@@ -1,164 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Comp 3</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Static Comp 3</title>
 </head>
 <body>
-<main>
+  <main>
     <section class="left-panel">
-        <article class="profile-picture-frame">
-            <img class="profile-picture" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21751910_10105676950956667_7231484527590442972_n.jpg?_nc_cat=0&oh=55a6c7304ecbd05cce31fb602737560b&oe=5B788E1D" alt="profile picture">
-            <aside class="profile">
-                <h2 class="profile-name">
-                    Kiel Dehnert
-                </h2>
-                <img class="expand-button" src="images/expand-button.svg" alt="Expand button">
-            </aside>
-        </article>
-        <article class="main-tabs">
-            <p class="main-title">Main</p>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/house.svg" alt="House svg">
-                <h3 class="left-panel-text">HOME</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/briefcase.svg" alt="Briefcase svg">
-                <h3 class="left-panel-text">JOBS</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/002-resume.svg" alt="Resume svg">
-                <h3 class="left-panel-text">RESUMES</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/003-clipboard.svg" alt="Clipboard svg">
-                <h3 class="left-panel-text">TASKS</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/001-calendar.svg" alt="Calendar svg">
-                <h3 class="left-panel-text">CALENDAR</h3>
-            </aside>
-        </article>
-        <article class="main-tabs">
-            <p class="main-title">Admin</p>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/house.svg" alt="House svg">
-                <h3 class="left-panel-text">USERS</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/briefcase.svg" alt="Briefcase svg">
-                <h3 class="left-panel-text">LOCATIONS</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/002-resume.svg" alt="Resume svg">
-                <h3 class="left-panel-text">WORKFLOWS</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/003-clipboard.svg" alt="Clipboard svg">
-                <h3 class="left-panel-text">JOB BOARDS</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/001-calendar.svg" alt="Calendar svg">
-                <h3 class="left-panel-text">SOCIAL</h3>
-            </aside>
-        </article>
-        <article class="main-tab-bottom">
-            <p class="main-title">Categories</p>
-            <aside class="left-panel-inner-content">
-                <img class="bottom-left-panel-checkbox" src="images/tick.svg" alt="Checkmark svg">
-                <h3 class="bottom-left-panel-text">Administrative</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/black-check-box.svg" alt="Blue box svg">
-                <h3 class="bottom-left-panel-text">Designs</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/black-check-box (1).svg" alt="Red box svg">
-                <h3 class="bottom-left-panel-text">Executive</h3>
-            </aside>
-            <aside class="left-panel-inner-content">
-                <img class="left-panel-svgs" src="images/black-check-box (2).svg" alt="Green box svg">
-                <h3 class="bottom-left-panel-text">Human Resources</h3>
-            </aside>
-        </article> 
+      <article class="profile-picture-frame">
+        <img class="profile-picture" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21751910_10105676950956667_7231484527590442972_n.jpg?_nc_cat=0&oh=55a6c7304ecbd05cce31fb602737560b&oe=5B788E1D" alt="profile picture">
+        <aside class="profile">
+          <h2 class="profile-name">Kiel Dehnert</h2>
+          <img class="profile-expand-button" src="images/expand-button.svg" alt="Expand button">
+        </aside>
+      </article>
+      <article class="left-panel-tabs">
+        <p class="main-title">Main</p>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/house.svg" alt="House svg">
+          <h3 class="left-panel-text">HOME</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/briefcase.svg" alt="Briefcase svg">
+          <h3 class="left-panel-text">JOBS</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/002-resume.svg" alt="Resume svg">
+          <h3 class="left-panel-text">RESUMES</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/003-clipboard.svg" alt="Clipboard svg">
+          <h3 class="left-panel-text">TASKS</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/001-calendar.svg" alt="Calendar svg">
+          <h3 class="left-panel-text">CALENDAR</h3>
+        </aside>
+      </article>
+      <article class="left-panel-tabs">
+      <p class="main-title">Admin</p>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/house.svg" alt="House svg">
+          <h3 class="left-panel-text">USERS</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/briefcase.svg" alt="Briefcase svg">
+          <h3 class="left-panel-text">LOCATIONS</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/002-resume.svg" alt="Resume svg">
+          <h3 class="left-panel-text">WORKFLOWS</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/003-clipboard.svg" alt="Clipboard svg">
+          <h3 class="left-panel-text">JOB BOARDS</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/001-calendar.svg" alt="Calendar svg">
+          <h3 class="left-panel-text">SOCIAL</h3>
+        </aside>
+      </article>
+      <article class="left-panel-tab-bottom">
+        <p class="main-title">Categories</p>
+        <aside class="left-panel-inner-content">
+          <img class="bottom-left-panel-checkbox" src="images/tick.svg" alt="Checkmark svg">
+          <h3 class="bottom-left-panel-text">Administrative</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/black-check-box.svg" alt="Blue box svg">
+          <h3 class="bottom-left-panel-text">Designs</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/black-check-box (1).svg" alt="Red box svg">
+          <h3 class="bottom-left-panel-text">Executive</h3>
+        </aside>
+        <aside class="left-panel-inner-content">
+          <img class="left-panel-svgs" src="images/black-check-box (2).svg" alt="Green box svg">
+          <h3 class="bottom-left-panel-text">Human Resources</h3>
+        </aside>
+      </article> 
     </section>
     <section class="main-panel">
-        <article class="search-bar-row">
-            <aside class="search-bar-menu">
-                <span class="blue-dot">•</span>
-                <img class="left-panel-svgs search-left-svg" src="images/menu-button-of-three-horizontal-lines.svg" alt="Menu svg">
+      <article class="search-bar-row">
+        <aside class="search-bar-menu">
+          <span class="blue-dot">•</span>
+          <img class="left-panel-svgs search-left-svg" src="images/menu-button-of-three-horizontal-lines.svg" alt="Menu svg">
+        </aside>
+        <aside class="input-section">
+          <img class="left-panel-svgs search-input-svg" src="images/musica-searcher.svg" alt="Magnifying glass">
+          <input class="search-input" type="search" placeholder="Search for a Job, Task, or Resume">
+        </aside>
+        <aside class="search-row-right-icon">
+          <img class="search-right-svg" src="images/003-add-user-to-social-network.svg" alt="User svg">
+        </aside>
+        <aside class="search-row-right-icon">
+          <img class="search-right-svg" src="images/002-video-camera.svg" alt="Camera svg">
+        </aside>
+        <aside class="search-row-right-icon">
+          <img class="search-right-svg" src="images/001-dot-matrix.svg" alt="Dot matrix svg">
+        </aside>
+      </article>
+      <article class="main-top">
+        <aside class="main-top-left">
+          <h1 class="main-top-heading">Customer Service Representative</h1>
+          <aside class="main-location">
+            <img class="location-svg" src="images/facebook-placeholder-for-locate-places-on-maps.svg" alt="Location svg">
+            <span class="location-spacing">
+              <p>San Francisco, CA</p>
+              <p>-</p>
+              <p class="main-top-blue-text">Preview this post</p>
+            </span>   
+          </aside>
+        </aside>
+        <aside class="main-top-right">
+          <article class="open-button">
+            <img class="open-svg" src="images/circular-shape-silhouette.svg" alt="Circle svg">
+            <p class="open-text">OPEN</p>
+          </article>
+          <img class="main-top-svgs top-right-1" src="images/003-bookmark.svg" alt="Bookmark svg">
+          <img class="main-top-svgs" src="images/002-pencil-edit-button.svg" alt="Edit svg">
+          <img class="main-top-svgs top-right-3" src="images/001-rubbish-bin.svg" alt="Delete svg">
+        </aside>
+      </article>
+      <article class="selector-box">
+        <aside class="panel-selectors">
+          <p class="selectors">SUMMARY</p>
+          <p class="selectors">APPLICANTS</p>
+          <p class="selectors">JOB BOARD</p>
+          <p class="selectors">INTERVIEWS</p>
+          <p class="selectors">ACTIVITY</p>
+          <p class="selectors">BROADCAST</p>
+          <p class="selectors">NOTIFICATIONS</p>
+        </aside>
+      </article>
+      <article class="main-panel-main-box">
+        <section class="graph-section">
+          <article class="left-graph-box">
+            <aside class="radial-graph-box">
+              <div class="radial-graphs">
+                <p class="radial-numbers">3,154</p>
+                <div class="radial-graph-one"></div>
+                <p class="radial-text">APPLICANTS</p>
+              </div>
+              <div class="radial-graphs">
+                <p class="radial-numbers">1,546</p>
+                <div class="radial-graph-two"></div>
+                <p class="radial-text">INTERVIEWS</p>
+              </div>
+              <div class="radial-graphs">
+                <p class="radial-numbers">912</p>
+                <div class="radial-graph-three"></div>
+                <p class="radial-text">FORWARDS</p>
+              </div>
             </aside>
-            <aside class="input-section">
-                <img class="left-panel-svgs search-input-svg" src="images/musica-searcher.svg" alt="Magnifying glass">
-                <input class="search-input" type="search" placeholder="Search for a Job, Task, or Resume">
+            <button class="graph-buttons graph-button-left">TOTALS - Out of 5,231 views</button>
+          </article>
+          <article class="right-graph-box">
+            <aside class="bar-graph-box">
+              <img class="bar-graph" src="https://aesalazar.com/wp-content/uploads/bar-graph-not-formatted.svg" alt="Bar graph">
+              <button class="graph-buttons graph-button-right">APPLICANTS/DAY</button>
             </aside>
-            <aside class="search-row-right-icon">
-                <img class="search-right-svg" src="images/003-add-user-to-social-network.svg" alt="User svg">
-            </aside>
-            <aside class="search-row-right-icon">
-                <img class="search-right-svg" src="images/002-video-camera.svg" alt="Camera svg">
-            </aside>
-            <aside class="search-row-right-icon">
-                <img class="search-right-svg" src="images/001-dot-matrix.svg" alt="Dot matrix svg">
-            </aside>
-        </article>
-        <article class="main-top">
-            <aside class="main-top-left">
-                <h1 class="main-top-heading">Customer Service Representative</h1>
-                <aside class="main-location">
-                    <img class="location-svg" src="images/facebook-placeholder-for-locate-places-on-maps.svg" alt="Location svg">
-                    <span class="location-spacing">
-                        <p>San Francisco, CA</p>
-                        <p>-</p>
-                        <p class="main-top-blue-text">Preview this post</p>
-                    </span>   
+          </article>
+        </section class="more-options-box">
+        <section class="more-options-button">
+          <aside class="left-options-border"></aside>
+            <img class="more-options-arrow" src="images/up-arrow.svg" alt="Up arrow svg">
+          <aside class="right-options-border"></aside>
+        </section>
+        <section class="bottom-main-box">
+          <article class="bottom-left-box">
+            <aside class="job-discription-box">
+              <article class="job-rows job-row-one">
+                <aside class="row-one-spacing">
+                  <article class="job-row-left-text">
+                    <p>JOB DESCRIPTION</p>
+                  </article>
+                  <article class="job-right-row-one">
+                    <img class="bottom-box-svgs" src="images/pencil-edit-button2.svg" alt="Edit svg">
+                    <p>EDIT</p>
+                  </article>
                 </aside>
-            </aside>
-            <aside class="main-top-right">
-                <aside class="open-button">
-                    <img class="open-svg" src="images/circular-shape-silhouette.svg" alt="Circle svg">
-                    <p class="open-text">OPEN</p>
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>POSITION TITLE</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>Customer Service Representative</p>
+                  </article>
                 </aside>
-                <img class="main-top-svgs top-right-1" src="images/003-bookmark.svg" alt="Bookmark svg">
-                <img class="main-top-svgs" src="images/002-pencil-edit-button.svg" alt="Edit svg">
-                <img class="main-top-svgs top-right-3" src="images/001-rubbish-bin.svg" alt="Delete svg">
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>LOCATION</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>San Fransisco CA</p>
+                  </article>
+                </aside>
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>EMPLOYMENT TYPE</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>Full-time</p>
+                  </article>
+                </aside>
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>EXPERIENCE</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>Mid-level</p>
+                  </article>
+                </aside>
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>STATUS</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>Open</p>
+                  </article>
+                </aside>
+              </article>
+              <article class="job-rows job-row-seven">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text row-seven-left-text">
+                    <p>DESCRIPTION</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</p>
+                  </article>
+                </aside>
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>HIRING LEAD</p>
+                  </article>
+                  <article class="job-row-right-text job-row-right-eight">
+                    <img class="job-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgF2M1J5rpH-run1Ld6Wa7Ic5i_dBPT2-JPAPeDtozQenY6Hlh9g" alt="weird al looking creepy">
+                    <p>"Weird Al" Yankovic</p>
+                  </article>
+                </aside>
+              </article>
+              <article class="job-rows">
+                <aside class="job-rows-bottom-styling job-rows-spacing">
+                  <article class="job-row-left-text">
+                    <p>APPROVED SALARY</p>
+                  </article>
+                  <article class="job-row-right-text">
+                    <p>$58,000</p>
+                  </article>
+                </aside>
+              </article>
             </aside>
-        </article>
-        <article class="selector-box">
-            <aside class="panel-selectors">
-                <p class="selectors">SUMMARY</p>
-                <p class="selectors">APPLICANTS</p>
-                <p class="selectors">JOB BOARD</p>
-                <p class="selectors">INTERVIEWS</p>
-                <p class="selectors">ACTIVITY</p>
-                <p class="selectors">BROADCAST</p>
-                <p class="selectors">NOTIFICATIONS</p>
+          </article>
+          <article class="bottom-right-box">
+            <aside class="social-media-box">
+              <section class="social-media-buttons">
+                <article class="facebook">
+                  <aside class="social-media-inner">
+                    <img class="social-media-svgs" src="images/003-facebook.svg" alt="Facebook svg">
+                    <p class="social-media-text">Post to Facebook</p>
+                  </aside>
+                </article>
+                  <article class="twitter">
+                  <aside class="social-media-inner">  
+                    <img class="social-media-svgs" src="images/002-twitter.svg" alt="Twitter svg">
+                    <p class="social-media-text">Tweet this Job</p>
+                  </aside>
+                </article>
+                <article class="linked-in">
+                  <aside class="social-media-inner">
+                    <img class="social-media-svgs linkedin-svg" src="images/001-linkedin.svg" alt="Linkedin svg">
+                    <p class="social-media-text">Post to Linkedin</p>
+                  </aside>
+                </article>
+              </section>
             </aside>
-        </article>
-        <article class="main-panel-main-box">
-            <section class="graph-section">
-                <article class="left-graph-box">
-
-                </article>
-                <article class="right-graph-box">
-
-                </article>
-            </section>
-                <article class="more-options-button">
-                    <aside class="left-options-border">
-
-                    </aside>
-                    <aside class="right-options-border">
-
-                    </aside>
-                </article>
-        </article>
+          </article>
+        </section>
+      </article>
     </section>
-</main>
+  </main>
 </body>
 </html>
