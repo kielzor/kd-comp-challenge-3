@@ -13,14 +13,14 @@
   <main>
     <section class="left-panel">
       <article class="profile-picture-frame">
-        <img class="profile-picture" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21751910_10105676950956667_7231484527590442972_n.jpg?_nc_cat=0&oh=55a6c7304ecbd05cce31fb602737560b&oe=5B788E1D" alt="profile picture">
+        <img aria-label="Profile picture" class="profile-picture" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21751910_10105676950956667_7231484527590442972_n.jpg?_nc_cat=0&oh=55a6c7304ecbd05cce31fb602737560b&oe=5B788E1D" alt="profile picture">
         <aside class="profile">
-          <h2 class="profile-name">Kiel Dehnert</h2>
-          <img class="profile-expand-button" src="images/expand-button.svg" alt="Expand button">
+          <h2 aria-label="Profile name" class="profile-name">Kiel Dehnert</h2>
+          <img aria-label="Profile expand button" class="profile-expand-button" src="images/expand-button.svg" alt="Expand button">
         </aside>
       </article>
       <article class="left-panel-tabs">
-        <p class="main-title">Main</p>
+        <p aria-label="Main title" class="main-title">Main</p>
         <aside class="left-panel-inner-content">
           <img class="left-panel-svgs" src="images/house.svg" alt="House svg">
           <h3 class="left-panel-text">HOME</h3>
@@ -67,42 +67,46 @@
       </article>
       <article class="left-panel-tab-bottom">
         <p class="main-title">Categories</p>
-        <aside class="left-panel-inner-content">
-          <img class="bottom-left-panel-checkbox" src="images/tick.svg" alt="Checkmark svg">
+        <aside class="left-panel-checkbox-content">
+          <img class="bottom-left-panel-checkbox checkbox-marker" src="images/tick.svg" alt="Checkmark svg">
           <h3 class="bottom-left-panel-text">Administrative</h3>
         </aside>
-        <aside class="left-panel-inner-content">
-          <img class="left-panel-svgs" src="images/black-check-box.svg" alt="Blue box svg">
+        <aside class="left-panel-checkbox-content">
+          <img class="left-panel-svgs checkbox-marker" src="images/black-check-box.svg" alt="Blue box svg">
           <h3 class="bottom-left-panel-text">Designs</h3>
         </aside>
-        <aside class="left-panel-inner-content">
-          <img class="left-panel-svgs" src="images/black-check-box (1).svg" alt="Red box svg">
+        <aside class="left-panel-checkbox-content">
+          <img class="left-panel-svgs checkbox-marker" src="images/black-check-box (1).svg" alt="Red box svg">
           <h3 class="bottom-left-panel-text">Executive</h3>
         </aside>
-        <aside class="left-panel-inner-content">
-          <img class="left-panel-svgs" src="images/black-check-box (2).svg" alt="Green box svg">
+        <aside class="left-panel-checkbox-content">
+          <img class="left-panel-svgs checkbox-marker" src="images/black-check-box (2).svg" alt="Green box svg">
           <h3 class="bottom-left-panel-text">Human Resources</h3>
         </aside>
       </article> 
     </section>
     <section class="main-panel">
       <article class="search-bar-row">
-        <aside class="search-bar-menu">
+        <aside class="search-bar-menu menu-hover">
           <span class="blue-dot">•</span>
-          <img class="left-panel-svgs search-left-svg" src="images/menu-button-of-three-horizontal-lines.svg" alt="Menu svg">
+          <img aria-label="Menu display button" class="left-panel-svgs search-left-svg" src="images/menu-button-of-three-horizontal-lines.svg" alt="Menu svg">
+          <img class="left-panel-svgs search-left-svg hidden-svg" src="images/svg/004-menu-button-of-three-horizontal-lines.svg" alt="Hidden menu svg">
         </aside>
         <aside class="input-section">
           <img class="left-panel-svgs search-input-svg" src="images/musica-searcher.svg" alt="Magnifying glass">
           <input class="search-input" type="search" placeholder="Search for a Job, Task, or Resume">
         </aside>
-        <aside class="search-row-right-icon">
+        <aside class="search-row-right-icon menu-hover">
           <img class="search-right-svg" src="images/003-add-user-to-social-network.svg" alt="User svg">
+          <img class="search-right-svg hidden-svg" src="images/svg/003-add-user-to-social-network.svg" alt="Add user hidden">
         </aside>
-        <aside class="search-row-right-icon">
+        <aside class="search-row-right-icon menu-hover">
           <img class="search-right-svg" src="images/002-video-camera.svg" alt="Camera svg">
+          <img class="search-right-svg hidden-svg" src="images/svg/002-video-camera.svg" alt="Camera hidden">
         </aside>
-        <aside class="search-row-right-icon">
+        <aside class="search-row-right-icon menu-hover">
           <img class="search-right-svg" src="images/001-dot-matrix.svg" alt="Dot matrix svg">
+          <img class="search-right-svg hidden-svg" src="images/svg/001-button-symbol-of-nine-dots.svg" alt="Nine dots hidden">
         </aside>
       </article>
       <article class="main-top">
@@ -126,6 +130,17 @@
           <img class="main-top-svgs" src="images/002-pencil-edit-button.svg" alt="Edit svg">
           <img class="main-top-svgs top-right-3" src="images/001-rubbish-bin.svg" alt="Delete svg">
         </aside>
+        <aside class="hamburger">
+          <select class="select-menu" src="images/menu-button-of-three-horizontal-lines.svg" alt="Menu-svg">
+            <option value="">SUMMARY</option>
+            <option value="">APPLICANTS</option>
+            <option value="">JOB BOARD</option>
+            <option value="">INTERVIEWS</option>
+            <option value="">ACTIVITY</option>
+            <option value="">BROADCAST</option>
+            <option value="">NOTIFICATIONS</option>
+          </select>
+        </aside>
       </article>
       <article class="selector-box">
         <aside class="panel-selectors">
@@ -142,19 +157,19 @@
         <section class="graph-section">
           <article class="left-graph-box">
             <aside class="radial-graph-box">
-              <div class="radial-graphs">
+              <div class="radial-graph-parent">
                 <p class="radial-numbers">3,154</p>
-                <div class="radial-graph-one"></div>
+                <div class="radial-graph-one radial-graphs"></div>
                 <p class="radial-text">APPLICANTS</p>
               </div>
-              <div class="radial-graphs">
+              <div class="radial-graph-parent">
                 <p class="radial-numbers">1,546</p>
-                <div class="radial-graph-two"></div>
+                <div class="radial-graph-two radial-graphs"></div>
                 <p class="radial-text">INTERVIEWS</p>
               </div>
-              <div class="radial-graphs">
+              <div class="radial-graph-parent">
                 <p class="radial-numbers">912</p>
-                <div class="radial-graph-three"></div>
+                <div class="radial-graph-three radial-graphs"></div>
                 <p class="radial-text">FORWARDS</p>
               </div>
             </aside>
@@ -291,8 +306,54 @@
                   </aside>
                 </article>
               </section>
-            </aside>
-          </article>
+              <section class="links-box">
+                <article class="bottom-right-links link-border">
+                  <aside class="link">
+                    <section class="bottom-right-box-header-one">
+                      <img class="bottom-right-svgs" src="images/003-earth.svg" alt="Globe svg">
+                      <h2 class="bottom-right-text">Link to this Job</h2>
+                    </section>
+                    <section class="bottom-right-box-paragraphs">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Interger mollis neque eget vistbpend.</p>
+                    </section>
+                    <section class="links-submit">
+                      <input class="links-input links-one" type="text" placeholder="http://loremipsum.dol/sitamet/consectetur">
+                      <button class="links-buttons">Copy</button>
+                    </section>
+                  </aside>
+                </article>
+                <article class="bottom-right-links link-border">
+                  <aside class="link">
+                    <section class="bottom-right-box-header-one">
+                      <img class="bottom-right-svgs" src="images/002-switch.svg" alt="Switch svg">
+                      <h2 class="bottom-right-text">Use the Button Widget</h2>
+                    </section>
+                    <section class="bottom-right-box-paragraphs">
+                      <p>This widget embeds the buttons for sharing the job for submitting a resume on your website</p>
+                    </section>
+                    <section class="links-submit">
+                      <input class="links-input links-one" type="text" placeholder="<script type='text/javascript' src='http://'">
+                      <button class="links-buttons">Copy</button>
+                    </section>
+                  </aside>
+                </article>
+                <article class="bottom-right-links">
+                    <aside class="link">
+                      <section class="bottom-right-box-header-one">
+                        <img class="bottom-right-svgs" src="images/001-paper-plane.svg" alt="Paper plane svg">
+                        <h2 class="bottom-right-text">Upload Resumes by Email</h2>
+                      </section>
+                      <section class="bottom-right-box-paragraphs">
+                        <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
+                      </section>
+                      <section class="links-submit">
+                        <input class="links-three links-input" type="text" placeholder="weirdalyankovicmusic@gmail.com">
+                      </section>
+                    </aside>
+                  </article>
+              </section>
+            </article>
+          </aside>
         </section>
       </article>
     </section>
