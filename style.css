@@ -830,7 +830,7 @@ main {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .main-panel-main-box {
     height: 98rem;
   }
