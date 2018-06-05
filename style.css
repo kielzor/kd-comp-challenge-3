@@ -182,6 +182,10 @@ main {
   width: 70%;
 }
 
+.input-section-hidden {
+  display: none;
+}
+
 .search-input-svg {
   margin-left: 13px;
   position: absolute;
@@ -977,8 +981,16 @@ main {
     flex-direction: column;
   }
 
+  .main-top-heading {
+    padding-left: 20px;
+  }
+
+  .main-location {
+    padding-left: 20px;
+  }
+
   .main-top-right {
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
   }
 
@@ -1006,5 +1018,35 @@ main {
 
   .more-options-arrow {
     transform: rotate(180deg);
+  }
+}
+  
+@media screen and (max-width: 420px) {
+  .search-bar-menu {
+    border: none;
+  }
+  
+  .input-section {
+    display: none;
+  }
+
+  .input-section-hidden {
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    border-bottom: 2px solid #ebedf3;
+  }
+
+  .menu-hover {
+    width: 25%;
+  }
+
+  .main-top-svgs {
+    margin: 0;
+  }
+  .main-top-right {
+    justify-content: space-around;
   }
 }
