@@ -83,12 +83,12 @@ main {
 }
 
 .checkbox-marker {
-  opacity: .7;
+  opacity: .4;
 }
 
 .checkbox-marker:hover {
   cursor: pointer;
-  opacity: 1;
+  opacity: .8;
 }
 
 .left-panel-inner-content,
@@ -97,8 +97,11 @@ main {
   display: flex;
   justify-content: flex-start;
   min-height: 2.9rem;
-  opacity: 0.4;
   padding-left: 12px;
+}
+
+.left-panel-inner-content {
+  opacity: 0.4;
 }
 
 .left-panel-inner-content:hover {
@@ -127,6 +130,7 @@ main {
 
 .bottom-left-panel-text {
   font-size: 12px;
+  opacity: .4;
   margin-left: 10px;
 }
 
