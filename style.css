@@ -91,7 +91,8 @@ main {
   opacity: 1;
 }
 
-.left-panel-inner-content, .left-panel-checkbox-content {
+.left-panel-inner-content,
+.left-panel-checkbox-content {
   align-items: center;
   display: flex;
   justify-content: flex-start;
@@ -783,6 +784,7 @@ main {
   font-size: 17px;
   font-weight: 500;
 }
+
 .links-submit {
   align-items: center;
   display: flex;
@@ -842,13 +844,13 @@ main {
     justify-content: space-around;
   }
 
-  .left-graph-box{
+  .left-graph-box {
     border-bottom: 2px solid #dce1e7;
     height: 50vh;
     width: 90%;
   }
 
-  .right-graph-box{
+  .right-graph-box {
     height: 45vh;
     width: 100%;
   }
@@ -944,7 +946,7 @@ main {
     justify-content: space-evenly;
   }
  
-  .radial-graph-box{
+  .radial-graph-box {
     flex-wrap: wrap;
   }
 
@@ -957,10 +959,11 @@ main {
     margin: 0 0 .5rem 6.5%;
     opacity: .65;
   }
+  
   .select-menu {
-  width: 7rem;
-  font-size: x-small;
-}
+    font-size: x-small;
+    width: 7rem;
+  }
 
   .main-top-right {
     justify-content: space-around;
@@ -969,7 +972,7 @@ main {
 }
 
 @media screen and (max-width: 625px) {
-  .main-panel-main-box{
+  .main-panel-main-box {
     height: 147rem;
   }
   
@@ -1008,7 +1011,7 @@ main {
 }
 
 @media screen and (max-width: 510px){
-  .main-panel-main-box{
+  .main-panel-main-box {
     height: 102rem;
   }
 
@@ -1031,12 +1034,12 @@ main {
   }
 
   .input-section-hidden {
+    align-items: center;
+    border-bottom: 2px solid #ebedf3;
     display: block;
     display: flex;
-    align-items: center;
-    width: 100%;
     height: 4rem;
-    border-bottom: 2px solid #ebedf3;
+    width: 100%;
   }
 
   .menu-hover {
