@@ -413,6 +413,10 @@ main {
   display: none;
 }
 
+.dots-hidden {
+  display: none;
+}
+
 .radial-graph-parent {
   align-items: center;
   display: flex;
@@ -1045,16 +1049,19 @@ main {
 
 @media screen and (max-width: 510px){
   .main-panel-main-box {
-    height: 102rem;
+    height: 147rem;
   }
 
   .dots {
     color: #ffffff;
-    display: flex;
     font-size: 40px;
     height: .1rem;
-    margin-left: 150%;
     width: 100%;
+  }
+
+  .graph-section {
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .lighter-dots {
@@ -1062,6 +1069,10 @@ main {
   }
 
   .carousel-hidden {
+    display: block;
+  }
+
+  .dots-hidden {
     display: block;
   }
 
@@ -1092,10 +1103,6 @@ main {
   .radial-graph-one {
     padding: 7rem;
   }
-
-  .more-options-arrow {
-    transform: rotate(180deg);
-  }
 }
   
 @media screen and (max-width: 420px) {
@@ -1123,7 +1130,43 @@ main {
   .main-top-svgs {
     margin: 0;
   }
+
   .main-top-right {
     justify-content: space-around;
+  }
+
+  .carousel-hidden {
+    visibility: hidden;
+  }
+
+  .carousel-arrows {
+    height: 1rem;
+    width: 1rem;
+    padding: .5rem;
+    margin: 0 5rem;
+  }
+
+  .radial-graph-box {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-graph-box {
+    width: 100%;
+    
+  }
+
+  .bar-graph {
+    width: 90%;
+  }
+
+  .job-row-right-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height: 700px){
+  .bar-graph {
+    width: auto;
   }
 }
