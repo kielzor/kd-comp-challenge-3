@@ -26,7 +26,7 @@ Note the rubric below for evaluation criteria
 
 # Photo of my site
 
-<img width="1440" alt="screen shot 2018-06-05 at 5 32 17 pm" src="https://user-images.githubusercontent.com/38475249/41008116-7ce5d49e-68e6-11e8-859a-d565f503e93f.png">
+<img width="1440" alt="screen shot 2018-06-05 at 7 02 22 pm" src="https://user-images.githubusercontent.com/38475249/41010134-0d200c08-68f3-11e8-819b-5f3ae34c4dd9.png">
 
 #Photo of original
 
