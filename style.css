@@ -360,8 +360,6 @@ main {
   color: #6f6f73;
   font-size: 12px;
   font-weight: 800;
-  /* height: 1rem; */
-  border: none;
   opacity: 0.75;
   padding-bottom: 20px;
 }
@@ -837,11 +835,19 @@ main {
   .left-panel {
     display: none;
   }
+
+  .graph-section {
+    margin-left: 2%;
+  }
 }
 
 @media screen and (max-width: 1050px) {
   .main-panel-main-box {
     height: 98rem;
+  }
+
+  .graph-section {
+    margin-left: 0;
   }
   
   .panel-selectors {
