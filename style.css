@@ -409,6 +409,10 @@ main {
   width: 100%;
 }
 
+.carousel-hidden {
+  display: none;
+}
+
 .radial-graph-parent {
   align-items: center;
   display: flex;
@@ -1044,8 +1048,49 @@ main {
     height: 102rem;
   }
 
-  .graph-section {
+  .dots {
+    color: #ffffff;
+    display: flex;
+    font-size: 40px;
+    height: .1rem;
+    margin-left: 150%;
+    width: 100%;
+  }
+
+  .lighter-dots {
+    opacity: .6;
+  }
+
+  .carousel-hidden {
+    display: block;
+  }
+
+  .carousel-arrows {
+    border: 2px solid #767677;
+    border-radius: 100%;
+    background-color: #f4f4f4;
+    height: 1.5rem;
+    opacity: .2;
+    padding: .5rem;
+    width: 1.5rem;
+  }
+
+  .carousel-arrows:hover {
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  .radial-graph-box {
+    justify-content: space-between;
+  }
+
+  .radial-graph-hidden {
     display: none;
+  }
+
+
+  .radial-graph-one {
+    padding: 7rem;
   }
 
   .more-options-arrow {
